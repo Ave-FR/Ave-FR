@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Ave Corp: an operating system run by AI agents">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151b2e"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <style>
+      .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      .m{font-family:ui-monospace,"SFMono-Regular","Cascadia Code",Consolas,monospace}
+      .px{animation:p 3.2s ease-in-out infinite}
+      .d1{animation-delay:.4s}.d2{animation-delay:.8s}.d3{animation-delay:1.2s}.d4{animation-delay:1.6s}.d5{animation-delay:2s}
+      @keyframes p{0%,100%{opacity:.25}50%{opacity:1}}
+      .cur{animation:b 1s steps(1) infinite}
+      @keyframes b{50%{opacity:0}}
+      @media (prefers-reduced-motion:reduce){.px,.cur{animation:none;opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+
+  <text x="64" y="112" class="t" font-size="52" font-weight="700" fill="#f4f6fb" letter-spacing="-1">Ave Corp</text>
+  <text x="64" y="154" class="t" font-size="22" fill="#a7b0c8">A one-person company, run by a team of AI agents.</text>
+  <text x="64" y="226" class="m" font-size="17" fill="#7dd3a8">$ <tspan fill="#d6dbea">spec → plan → build → test → review</tspan><tspan class="cur" fill="#7dd3a8"> ▍</tspan></text>
+
+  <!-- pixel office: one square per agent desk -->
+  <g transform="translate(860 70)">
+    <g fill="#7c8cff">
+      <rect class="px" x="0" y="0" width="28" height="28" rx="4"/>
+      <rect class="px d2" x="40" y="0" width="28" height="28" rx="4"/>
+      <rect class="px d4" x="80" y="0" width="28" height="28" rx="4"/>
+      <rect class="px d1" x="120" y="0" width="28" height="28" rx="4"/>
+      <rect class="px d3" x="160" y="0" width="28" height="28" rx="4"/>
+    </g>
+    <g fill="#7dd3a8">
+      <rect class="px d3" x="0" y="40" width="28" height="28" rx="4"/>
+      <rect class="px d5" x="40" y="40" width="28" height="28" rx="4"/>
+      <rect class="px d1" x="80" y="40" width="28" height="28" rx="4"/>
+      <rect class="px" x="120" y="40" width="28" height="28" rx="4"/>
+      <rect class="px d2" x="160" y="40" width="28" height="28" rx="4"/>
+    </g>
+    <g fill="#f5b971">
+      <rect class="px d4" x="0" y="80" width="28" height="28" rx="4"/>
+      <rect class="px d1" x="40" y="80" width="28" height="28" rx="4"/>
+      <rect class="px d5" x="80" y="80" width="28" height="28" rx="4"/>
+      <rect class="px d2" x="120" y="80" width="28" height="28" rx="4"/>
+      <rect class="px d3" x="160" y="80" width="28" height="28" rx="4"/>
+    </g>
+    <text x="0" y="146" class="m" font-size="13" fill="#6b7591">dev · design · ops</text>
+  </g>
+</svg>
