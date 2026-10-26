@@ -1,13 +1,15 @@
 <img src="./banner.svg" alt="Ave Corp: a one-person company, run by a team of AI agents" width="100%">
 
-I build the tooling that lets AI agents handle the day-to-day of a small company: planning, coding, reviewing, shipping, and remembering what happened yesterday. The company is me; the staff is ~45 specialised Claude Code agents.
+I build the tooling that lets AI agents handle the day-to-day of a small company: planning, coding, reviewing, shipping, and remembering what happened yesterday. The company is me; the staff is ~47 specialised Claude Code agents, plus a voice assistant on my PC.
 
 ### What I'm building
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Agent Office** | Pixel-art dashboard that drives the agents: live missions, token budget guard, project costs, night runs with a morning review. | Next.js 16 · React · TypeScript · SSE |
-| **Agent harness** | ~45 agents and ~50 skills with one shared workflow (spec → plan → build → test → review), synced across machines and checked by tests. | Node.js · Python · Claude Code |
+| **Agent Office** | Pixel-art dashboard that drives the agents: live missions, token budget guard, project costs, night runs with a morning review, phone alerts with priority caps, a map of the shared memory. | Next.js 16 · React · TypeScript · SSE |
+| **Stella** | Voice copilot for the PC: wake word, local speech-to-text, opens and arranges windows across two screens, learns routines. Asks out loud before anything sensitive. | Python · faster-whisper · Edge TTS · Claude |
+| **Mail assistant** | Reads the inbox, labels and archives the noise, drafts replies with a per-contact memory I can edit. A mail only leaves when I click send. | Gmail API · Next.js · Claude |
+| **Agent harness** | ~47 agents and ~50 skills with one shared workflow (spec → plan → build → test → review), synced across machines and checked by tests. | Node.js · Python · Claude Code |
 | **Shared memory** | An Obsidian vault the agents read before work and write to after, so no session starts from zero. | Markdown · Python |
 | **Small-business sites** | Fast static sites for local trades: SEO, structured data, accessibility first. | HTML/CSS · Cloudflare Pages |
 
@@ -22,4 +24,5 @@ I build the tooling that lets AI agents handle the day-to-day of a small company
 - **Spec before code.** Every non-trivial feature gets a written plan that another agent challenges before anyone builds it.
 - **Evidence over confidence.** Done means tests ran and a screenshot was checked, not that an agent said so.
 - **Small diffs.** The smallest change that fully solves the problem, with a test for any new logic.
+- **Human in the loop.** Agents read, sort and draft; anything that leaves the machine (a mail, a post, a payment) waits for my click.
 - **Cost-aware.** Every token is tracked per project; a guard stops runs that blow the budget.
