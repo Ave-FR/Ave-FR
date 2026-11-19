@@ -1,8 +1,10 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg"><img src="./banner-light.svg" alt="Ave Corp: Rémy Agez, engineering student at JUNIA ISEN and founder, building websites and tools for small businesses with a team of Claude Code agents" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg"><img src="./banner-light.svg" alt="Ave Corp: websites and custom tools for small businesses, by Rémy Agez" width="100%"></picture>
 
-I'm **Rémy Agez**: a first-year master's (M1) engineering student at JUNIA ISEN, and the founder of **Ave Corp**, a one-person company registered in October 2026.
+**Ave Corp** builds fast websites and custom tools for small businesses: clear pricing, a fixed scope, and one person you talk to from the first call to the launch.
 
-Ave Corp builds websites and custom tools for small businesses. I do the work with a team of specialised Claude Code agents, a shared memory they read before every task, and a voice assistant on my PC. The agents draft, code and check; I decide and ship.
+I'm **Rémy Agez**, the founder, and a first-year master's (M1) engineering student at JUNIA ISEN. Ave Corp is my company, registered in October 2026.
+
+Behind the scenes I run my own production system: specialised AI agents that draft, code and check, a shared memory they read before every task, and reviews at every step. They speed up the work; I decide, check and ship.
 
 ### What I'm building
 
@@ -11,13 +13,14 @@ Ave Corp builds websites and custom tools for small businesses. I do the work wi
 | **Agent Office** | The dashboard that runs the agents: live missions, token budget guard, project costs, night runs with a morning review, phone alerts, a map of the shared memory. | Next.js 16 · React · TypeScript · SSE |
 | **Stella** | Voice copilot for the PC: wake word, local speech-to-text, arranges windows across screens, learns routines. Asks out loud before anything sensitive. | Python · faster-whisper · Edge TTS · Claude |
 | **Mail assistant** | Reads the inbox, labels and archives the noise, drafts replies with a per-contact memory I can edit. A mail only leaves when I click send. | Gmail API · Next.js · Claude |
-| **Agent harness** | 47 agents and 56 skills sharing one workflow (spec, plan, build, test, review), synced across machines and covered by tests. | Node.js · Python · Claude Code |
+| **Agent harness** | 49 agents and 67 skills sharing one workflow (spec, plan, build, test, review), synced across machines and covered by tests. | Node.js · Python · Claude Code |
 | **Shared memory** | An Obsidian vault the agents read before work and write to after, so no session starts from zero. | Markdown · Python |
+| **Video and montage engine** | Studies a reference edit (cuts, effects, music sync, grading), then builds new edits in the same style, scored by an independent judge. | Python · ffmpeg · OpenCV |
 | **Small-business sites** | Fast static sites for local trades: SEO, structured data, accessibility first. | HTML/CSS · Cloudflare Pages |
 
 <sub>Repositories are private. Happy to walk through the code.</sub>
 
-### First open-source tool, coming soon
+### First open-source tool, in progress
 
 **piege-ia** (working name) finds hidden prompt injections in a document before you hand it to an AI: instructions in white or tiny text, invisible characters, text tucked in alt tags. A defensive check, MIT licence, README in French and English. Not public yet.
 
