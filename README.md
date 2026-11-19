@@ -15,6 +15,9 @@ Through Ave Corp, the same tools also build fast websites and custom tools for s
 | **Mail assistant** | Reads the inbox, labels and archives the noise, drafts replies with a per-contact memory I can edit. A mail only leaves when I click send. | Gmail API · Next.js · Claude |
 | **Agent harness** | 49 agents and 67 skills sharing one workflow (spec, plan, build, test, review), synced across machines and covered by tests. | Node.js · Python · Claude Code |
 | **Shared memory** | An Obsidian vault the agents read before work and write to after, so no session starts from zero. | Markdown · Python |
+| **Autonomous cell** | Agents that keep working at night on their own: a cockpit that relaunches them after limits, a judge that scores every output, a morning page where I review, approve or send back. | Node.js · Next.js · Claude Code |
+| **Inspiration skills** | Skills in active development that learn a style from references (an edit, a website, a thumbnail), list what makes it work, and rebuild new pieces with the same recipe. | Python · ffmpeg · Playwright |
+| **Workshop** | Work sessions with Claude inside the dashboard, reachable from my phone over a private network. In progress. | Next.js · Tailscale · WebAuthn |
 | **Video and montage engine** | Studies a reference edit (cuts, effects, music sync, grading), then builds new edits in the same style, scored by an independent judge. | Python · ffmpeg · OpenCV |
 | **Small-business sites** | Fast static sites for local trades: SEO, structured data, accessibility first. | HTML/CSS · Cloudflare Pages |
 
