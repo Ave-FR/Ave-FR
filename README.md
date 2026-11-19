@@ -21,11 +21,11 @@ Through Ave Corp, the same tools also build fast websites and custom tools for s
 | **Video and montage engine** | Studies a reference edit (cuts, effects, music sync, grading), then builds new edits in the same style, scored by an independent judge. | Python · ffmpeg · OpenCV |
 | **Small-business sites** | Fast static sites for local trades: SEO, structured data, accessibility first. | HTML/CSS · Cloudflare Pages |
 
-<sub>Repositories are private. Happy to walk through the code.</sub>
+<sub>Project repositories above are private, happy to walk through the code. Open-source tools are public.</sub>
 
-### First open-source tool, in progress
+### Open source
 
-**piege-ia** (working name) finds hidden prompt injections in a document before you hand it to an AI: instructions in white or tiny text, invisible characters, text tucked in alt tags. A defensive check, MIT licence, README in French and English. Not public yet.
+**[safe-to-share](https://github.com/Ave-FR/safe-to-share)**: check documents before you share them or hand them to an AI. `clean` strips hidden metadata (author, company, GPS position in photos, software names, invisible characters); `scan` finds hidden prompt injections (white or tiny text, invisible characters, "if you are an AI…") and lists them without following them. A whole folder in one command, a clear report, nothing leaves your machine. Python · MIT · README in English and French.
 
 ### How I work
 
