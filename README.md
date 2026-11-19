@@ -1,10 +1,10 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg"><img src="./banner-light.svg" alt="Ave Corp: websites and custom tools for small businesses, by Rémy Agez" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg"><img src="./banner-light.svg" alt="Ave Corp: Rémy Agez, developer, building an AI agent workspace and tools" width="100%"></picture>
 
-**Ave Corp** builds fast websites and custom tools for small businesses: clear pricing, a fixed scope, and one person you talk to from the first call to the launch.
+I'm **Rémy Agez**, a developer and first-year master's (M1) engineering student at JUNIA ISEN, and the founder of **Ave Corp**.
 
-I'm **Rémy Agez**, the founder, and a first-year master's (M1) engineering student at JUNIA ISEN. Ave Corp is my company, registered in October 2026.
+I build my own development environment: a dashboard that runs a team of specialised AI agents, a shared memory they read before every task, a voice copilot, and a video montage engine. Agents draft, code and check; every change goes through a plan, tests and a review, and I decide what ships.
 
-Behind the scenes I run my own production system: specialised AI agents that draft, code and check, a shared memory they read before every task, and reviews at every step. They speed up the work; I decide, check and ship.
+Through Ave Corp, the same tools also build fast websites and custom tools for small businesses.
 
 ### What I'm building
 
